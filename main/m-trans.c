@@ -7,7 +7,6 @@
 #define BAUD 9600                               //DEFINE BAUD 
 #define BAUDRATE ((F_CPU) / (BAUD*16UL)-1)      //SET BAUD RATE VALUE FOR UBRR
 
-//Reverse and neutral?
 
 /*  Gear    SolenoidA       SolenoidB
     1         ON               OFF
